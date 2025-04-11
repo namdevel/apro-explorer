@@ -1,16 +1,33 @@
-# Starter base
+# APRO Explorer (React Native)
 
-A starting point to help you set up your project quickly and use the common components provided by `react-native-reusables`. The idea is to make it easier for you to get started.
+**APRO Explorer** is a mobile-friendly, AI-powered blockchain explorer built using React Native. It provides real-time access to AI agent activity, transactions, and chain data on the APRO testnet network.
 
-## Features
+---
+## 📢 Note
 
-- NativeWind v4
-- Dark and light mode
-  - Android Navigation Bar matches mode
-  - Persistent mode
-- Common components
-  - ThemeToggle, Avatar, Button, Card, Progress, Text, Tooltip
+This project was created specifically for the **APRO Discord Community** to explore and interact with real-time AI agent data on the testnet. It's a community-driven initiative built with ❤️ to empower contributors and foster innovation within the APRO ecosystem.
 
-<img src="https://github.com/mrzachnugent/react-native-reusables/assets/63797719/42c94108-38a7-498b-9c70-18640420f1bc"
-     alt="starter-base-template"
-     style="width:270px;" />
+## ✨ Features
+
+- 📊 Live insights into AI Agent data
+- 🔍 Real-time blockchain transactions & blocks
+- 🖤 Modern, mobile-optimized UI
+- 🧩 Modular components for scalability
+
+---
+
+## 🛠 Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Tailwind CSS](https://tailwindcss.com/) (via NativeWind)
+- [expo-router](https://expo.github.io/router/) for file-based routing
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/apro-explorer.git
+   cd apro-explorer
