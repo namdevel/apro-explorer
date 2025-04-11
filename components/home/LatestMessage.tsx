@@ -4,7 +4,7 @@ import { Text } from '~/components/ui/text';
 import * as Clipboard from 'expo-clipboard';
 import { Feather } from '@expo/vector-icons';
 import { Toast } from 'toastify-react-native';
-import {convertToTimeAgo, openTxHashInBrowser} from "~/utils/utils";
+import { convertToTimeAgo, openTxHashInBrowser } from "~/utils/utils";
 import Bsc from '~/lib/svg/Bsc';
 import { useRouter } from 'expo-router';
 
@@ -57,7 +57,7 @@ const LatestMessage = ({
           </Text>
         </View>
 
-        <TouchableOpacity onPress={() => console.log('View more pressed')}>
+        <TouchableOpacity onPress={() => router.push('/data_message')}>
           <Text className="text-sm font-semibold text-green-600 dark:text-green-400">
             View More
           </Text>
@@ -193,11 +193,10 @@ const StatusRow = ({ status }: { status: string }) => (
   <View className="flex-row justify-between items-center mt-2">
     <Text className="text-gray-500 dark:text-gray-400 text-sm">Status</Text>
     <Text
-      className={`text-sm font-semibold ${
-        status === 'SUCCESS'
+      className={`text-sm font-semibold ${status === 'SUCCESS'
           ? 'text-green-600 dark:text-green-400'
           : 'text-red-500'
-      }`}
+        }`}
     >
       {status}
     </Text>

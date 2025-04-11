@@ -53,7 +53,7 @@ const LatestSourceAgent = ({
             Latest Source Agent
           </Text>
         </View>
-        <TouchableOpacity onPress={() => console.log('View more')}>
+        <TouchableOpacity onPress={() => router.push('/source_agent')}>
           <Text className="text-sm font-semibold text-green-600 dark:text-green-400">
             View More
           </Text>
