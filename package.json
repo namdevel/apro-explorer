@@ -13,7 +13,7 @@
     "postinstall": "npx tailwindcss -i ./global.css -o ./node_modules/.cache/nativewind/global.css"
   },
   "dependencies": {
-    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/native": "^7.3.16",
     "@react-navigation/native-stack": "^7.3.10",
     "@rn-primitives/avatar": "~1.1.0",
     "@rn-primitives/portal": "~1.1.0",
